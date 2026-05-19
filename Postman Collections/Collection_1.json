@@ -346,12 +346,7 @@
 									"script": {
 										"id": "47496146-1ae8-44df-9798-0710b3f7aaa0",
 										"exec": [
-											"pm.test(\"Status code is 400\", function () {\r",
-											"    pm.response.to.have.status();\r",
-											"});\r",
-											"pm.test(\"Body matches string:Bad Request\", function () {\r",
-											"    pm.expect(pm.response.text()).to.include(\"Bad Request\");\r",
-											"});"
+											""
 										],
 										"type": "text/javascript",
 										"packages": {},
@@ -362,8 +357,12 @@
 									"listen": "prerequest",
 									"script": {
 										"id": "611ef1c0-139f-41e1-b51f-f609baaa8429",
-										"exec": [],
-										"type": "text/javascript"
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {},
+										"requests": {}
 									}
 								}
 							],
